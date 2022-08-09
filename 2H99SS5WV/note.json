@@ -48,18 +48,65 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "%spark.pyspark\nimport os",
+      "user": "anonymous",
+      "dateUpdated": "2022-08-09 13:33:39.283",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u003cconsole\u003e:5: error: object zeppelin is not a member of package org.apache\r\n  var value: org.apache.zeppelin.spark.SparkZeppelinContext \u003d _\r\n                        ^\n\u003cconsole\u003e:6: error: object zeppelin is not a member of package org.apache\r\n  def set(x: Any) \u003d value \u003d x.asInstanceOf[org.apache.zeppelin.spark.SparkZeppelinContext]\r\n                                                      ^\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "\u003cconsole\u003e:5: error: object zeppelin is not a member of package org.apache\r\n  var value: org.apache.zeppelin.spark.SparkZeppelinContext \u003d _\r\n                        ^\n\u003cconsole\u003e:6: error: object zeppelin is not a member of package org.apache\r\n  def set(x: Any) \u003d value \u003d x.asInstanceOf[org.apache.zeppelin.spark.SparkZeppelinContext]\r\n                                                      ^\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "failed to start pyspark"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1660014315395_-621034731",
+      "id": "20220809-100515_356057501",
+      "dateCreated": "2022-08-09 10:05:15.396",
+      "dateStarted": "2022-08-09 13:33:39.358",
+      "dateFinished": "2022-08-09 13:33:52.636",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "%spark.pyspark\n",
       "user": "anonymous",
-      "dateUpdated": "2022-08-09 10:05:15.399",
+      "dateUpdated": "2022-08-09 13:33:39.298",
       "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1660014315395_-621034731",
-      "id": "20220809-100515_356057501",
-      "dateCreated": "2022-08-09 10:05:15.396",
+      "jobName": "paragraph_1660026819295_573538545",
+      "id": "20220809-133339_2046319054",
+      "dateCreated": "2022-08-09 13:33:39.295",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
